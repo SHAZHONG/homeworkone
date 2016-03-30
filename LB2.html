@@ -2,24 +2,50 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>我的网页 </title>
-		<link href="css/example2.css" type="text/css" rel="stylesheet"/>
-		
+		<title>BORN TO LONGBOARD</title>
+		<link href="css/LB2.css" type="text/css" rel="stylesheet"/>
+		<link rel="icon" href="icon/lb2.ico" mce_href="icon/lb2.ico" type="image/x-icon">
+		<script type="text/javascript">
+			function join(){
+			var i; 
+			var score;     
+			var number=prompt("账号");
+			if(number>0)
+			{
+				{
+				score=prompt("密码");       
+				}
+				var mychar="操作成功！";
+				alert(mychar)
+			}
+			else 
+			{
+				alert("账号不能空着哦");
+			}
+			}
+		</script>
+		<script type="text/javascript">
+			function recommend(){
+			var mychar="SORRY.网页编辑中...";
+			alert(mychar)
+			}
+		</script>
 	</head>
-	<body style="background:url(img/bg.jpg);">
-		<div id="Hone">
-			<h1>BORN TO LONGBOARD</h1>
+	<body>
+		<div id="title">
+			<h1>BORN TO LONGBOARD</h1>	
 		</div>
 		<div id="nav">
 				<ul>
-					<li><a href="">RECOMMED</a></li>
-					<li><a href="">COURSE</a></li>
-					<li><a href="">JOIN US</a></li>
+					<li><a href="LB3.html">SHOW</a></li>
+					<li><a href="http://www.soku.com/search_video/q_%E9%95%BF%E6%9D%BF%E6%95%99%E7%A8%8B?f=1&kb=040200000000000__&_rp=1459245133938sIIa8K&_rp=1459245133938sIIa8K">COURSE</a></li>
+					<li><input name="button" type="button" onClick="join()" value="JOIN US" /></li>
+					<li><input name="button" type="button" onClick="recommend()" value="RECOMMEND" /></li>
 				</ul>
 			</div>
 		<div id="content">
 			<p class="firstline">长板(longboard)，最早诞生于冲浪板加轮滑鞋的轮子，类似于带轮子的冲浪板/滑雪板。<br/>
-			它和普通滑板相比，板面更长更宽，<br轮子更大更软更宽，拥有更长的续航能力，<br/>
+			它和普通滑板相比，板面更长更宽，轮子更大更软更宽，拥有更长的续航能力，<br/>
 			更佳的路面适应能力及更快的上手时间和更好的操作感。 <br/>
 			长板的长度通常在33—59英寸 (84到150cm) 之间，宽9.0-10.0英寸（22.8-25.4cm）之间。<br/>
 			主要材质包括枫木，竹子，玻璃纤维，碳纤维，金属，混合材质等<br/>
@@ -36,5 +62,9 @@
 		<div id="copyright">
 			<P class="copyrighttext">&copy 2016 LongBoard.</P>
 		</div>
+		<audio src="music/To the Sky.mp3"
+			controls autoplay>
+		</audio>
+		
 	</body>
 </html>
